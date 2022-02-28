@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Google Sign In</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+      }
+
+      .google__btn {
+        padding: 13px 16px;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        background: rgb(56, 56, 230);
+        cursor: pointer;
+        font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+        font-size: 18px;
+      }
+    </style>
+    <script src="script.js" type="module"></script>
+  </head>
+  <body>
+    <button class="google__btn" id="google-sign-in__btn">
+      Sign in with Google
+    </button>
+    <button
+      class="google__btn"
+      id="google-sign-out__btn"
+      style="background: red"
+    >
+      Sign out
+    </button>
+  </body>
+</html>
